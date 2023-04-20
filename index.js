@@ -14,7 +14,8 @@ app.use(bodyParser.json());
 app.get("/api/v1/health", async (req, res, next) => {
     res.json({
         "message": "Ok",
-        "server": "UP"
+        "server": "UP",
+        "team":"los mejores"
     })
 });
 
